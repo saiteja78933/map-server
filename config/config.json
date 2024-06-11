@@ -1,0 +1,41 @@
+{
+  "options": {
+    "paths": {
+      "root":"/data",
+      "fonts": "../data/fonts",
+      "mbtiles": "../data"
+    }
+  },
+  "styles": {
+    "maptiler-basic": {
+      "style": "../styles/maptiler-basic/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "positron": {
+      "style": "../styles/positron/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "toner": {
+      "style": "../styles/maptiler-toner/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "maptile3d": {
+      "style": "../styles/maptiler-3d/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    }
+
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "2022-05-30-north-america.mbtiles"
+    }
+  }
+}
