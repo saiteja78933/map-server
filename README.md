@@ -7,5 +7,6 @@ place fonts,tiles  inside the data folder
 download styles from [styles]((https://github.com/teamapps-org/maplibre-gl-styles))
 
 
+after this run the docker
 
-after this run the docker docker run -v /path/to/data:/data -v /path/to/config:/config -p 8080:8080 "mapserver"
+**docker run -v /path/to/data:/data -v /path/to/config:/config -p 8080:8080 "mapserver"**
